@@ -1,0 +1,11 @@
+body {
+    min-height: 140vh;
+    background: url(Background.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+#wait-container{
+    visibility: hidden;
+}

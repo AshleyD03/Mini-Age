@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Age Calculator</title>
+    <link rel="stylesheet" href="resauces/index.css">
+</head>
+<body>
+    <!-- Header -->
+    <h1> tittle </h1>
+
+    <!-- Buttons -->
+    <div class="button-container">
+        <button id="button-mini">
+            The mimimum age I can date
+        </button>
+        <button id="button-wait">
+            When can I date someone
+        </button>
+    </div>
+
+    <!-- Minimum age calculator Container -->
+    <div class="main-container" id="mini-container">
+        <input type="number" id="mini-input" onkeyup="minimum_Age(this.value)">
+        <p id="mini-result"> Your Minimum dating age is ..</p>
+    </div>
+
+    <!-- Wait year calculator Container -->
+    <div class="main-container" id="wait-container">
+        <input type="number" id="wait-input1" onkeyup="wait_Years()" onchange="wait_Years()">
+        <input type="number" id="wait-input2" onkeyup="wait_Years()" onchange="wait_Years()">
+        <p id="wait-result"> You'll have to wait ..</p>
+        <p id="wait-comment"> </p>
+    </div>    
+
+    <script src="resauces/index.js"></script>
+</body>
+</html>
