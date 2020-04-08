@@ -1,11 +1,75 @@
-body {
-    min-height: 140vh;
-    background: url(Background.png);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100%;
-  }
+html {
+  margin: 0;
+  padding: 0;
+}
 
-#wait-container{
-    visibility: hidden;
+body {
+  background: url(Background.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  padding: 0;
+}
+
+#container {
+  position: absolute;
+  top: 1000px;
+  left: 200px;
+  
+  
+}
+
+#wait-container {
+  visibility: hidden;
+}
+
+#header {
+  height: 153px;
+
+  top: 135px;
+
+  font-family: Parisienne;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 150px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 5px #000000;
+}
+
+#button-mini {
+  width: 80vh;
+  height: 10vh;
+  margin: 0;
+  position: absolute;
+  font-family: Parisienne;
+  font-size: 50px;
+
+
+background: #FFFFFF;
+border-radius: 100px;
+  
+}
+
+#button-wait {
+  width: 80vh;
+  margin: 0;
+position: absolute;
+  height: 10vh;
+  left: 700px;
+  z-index: -1;
+
+background: #CBCBCB;
+border-radius: 100px;
+font-family: Parisienne;
+font-size: 40px;
+}
+
+.button-container{
+ 
+  margin: 0;
 }
